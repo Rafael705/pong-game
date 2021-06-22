@@ -234,6 +234,7 @@ while True:
 		if collision.between_ball_and_paddle1(ball, paddle1):
 			ball.paddle_collision()
 
+
 		# paddle2 collision
 		if collision.between_ball_and_paddle2(ball, paddle2):			
 			ball.paddle_collision()
