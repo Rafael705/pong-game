@@ -204,10 +204,6 @@ while True:
 			if event.key == pygame.K_DOWN:
 				paddle2.state = 'down'
 
-		# if event.type == pygame.KEYUP:
-			# paddle1.state = 'stopped'
-			# paddle2.state = 'stopped'
-
 	if playing:
 		draw_board()
 		# ball
